@@ -67,7 +67,4 @@
 // console.log(arrayOfcars);
 
 
-///////////// exercise 4: ////////////
-
-
-///hello wase
+///////////// exercise 4: /////////
