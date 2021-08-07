@@ -68,3 +68,121 @@
 
 
 ///////////// exercise 4: /////////
+
+// var newArray = [5,3,7,8,11];
+// var sumOfArray = 0;
+
+// for(var i=0; i<newArray.length; i++){
+//     sumOfArray += newArray[i];
+// }
+
+// console.log(sumOfArray);
+// console.log(sumOfArray /newArray.length);
+
+///////////// exercise 5: /////////
+
+// var names = ["guy","wase","melkamu","sharel","asaf"];
+
+// for(var i=0; i<names.length; i++){
+//     console.log(names[i]);
+// }
+
+
+
+
+
+///////////// exercise 6: /////////
+
+
+// var newArray = [];
+
+// for(var i=0; i<5; i++){
+//     var userInput = (prompt("please insert a name:"));
+//     newArray.push(userInput);
+// }
+// console.log(newArray);
+
+///////////// exercise 7: /////////
+
+// var namesOfCars = ["subaru","volvo","skoda","fiat","honda","kia","bmw","audi","nissan"];
+
+// var userInput = prompt("please inert a name of a car company");
+
+// var isAMatch = false;
+
+// for(var i=0; i<namesOfCars.length; i++){
+//     if (namesOfCars[i] == userInput){
+//         isAMatch =true;
+//         break;
+//     }
+    
+// }
+
+// if(isAMatch){
+//     alert("there is amatch")
+// }else{
+//     alert("there is no match!")
+// }
+
+
+///////////// exercise 8: /////////
+
+// var nums = [];
+// var multiOfnums = 1;
+// var sumOfnums = 0;
+
+// for(var j=0; j<3; j++){
+//     var userInput=Number(prompt("please Insert a number:"));
+//     nums.push(userInput);
+// }
+
+// for(var i=0; i<nums.length; i++){
+//     multiOfnums *= nums[i];
+//     sumOfnums += nums[i];
+//     if (nums[i]%2 == 0){
+//         console.log("the number "+nums[i]+" is even");
+//     }else{
+//         console.log("the number "+nums[i]+" is not even");
+//     }
+// }
+// console.log(multiOfnums);
+// console.log(sumOfnums);
+
+
+///////////// exercise 9: /////////
+
+// for(var i=1; i<=10; i++){
+//     for(var j=1; j<=10; j++){
+//         console.log(i+"*"+j+"="+i*j);
+//     }
+// }
+
+///////////// exercise 10: /////////
+
+// var namesOfCars = ["subaru","volvo","skoda"];
+
+// var numsOfUser =[];
+
+// for (var i=0; i<namesOfCars.length; i++){
+//     var userInput = Number(prompt("please inser a number:"));
+//     numsOfUser.push(userInput);
+
+// }
+
+// for (var i=0; i<namesOfCars.length; i++){
+//     for(var j=0; j<numsOfUser[i]; j++){
+//         console.log(namesOfCars[i])
+//     }
+// }
+
+
+///////////// exercise 11: /////////
+
+// for(var i=1; i<=1000; i++){
+//     if( i%7 == 0 || String(i).includes('7')){
+//         console.log("BOOM!");
+//     }else{
+//         console.log(i);
+//     }
+
+// }
